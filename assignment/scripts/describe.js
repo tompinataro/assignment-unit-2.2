@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable called name is set to Dane.
+// An if-else statement checks to see if the variable is exactly equal to Mary.
+// If the variable is Mary, then the console.log outputs 'Hi Mary!'
+// Any and all other values will have a console.log output of 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// An undefined variable is created called 'secret.' 
+// A variable called 'code' is set to 123.
+// An if-else statement checks to see if the variable is exactly equal to 123.
+// If it is, then the variable secret is set to 'super' and the value of the variable code is doubled.
+// Then if the value of the variable code is greater than 250, the variable secret is set to 'duper.'
+//Lastly, the value of the variable secret is logged in the console.
 
 //CODE
 /*
@@ -70,10 +72,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Three variables (isStudent, age and zip) are set to true, 34 and 55407 respectively.
+// The if/else statement checks if isStudent is true AND if the value of zip is greater than 80000.
+// If BOTH are true, then the console.log output will be `You're a student on the West Coast!`
 //
+// If the first condition is not met, it will then check if isStudent is false or if age is less than 30. 
+// If either of these conditions is true, it will print What are your hobbies? to the console.
+//
+// If If neither of the previous conditions is true, it will then check if isStudent is still true. 
+// If it is, it will print Welcome to Prime! to the console.
+//
+//If none of the previous conditions are true, it will print How about the weather? to the console.=
 
 //CODE
 /*
@@ -129,6 +138,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX switched colors, and add colorTwo = 'purple' after line 148.
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -139,10 +149,15 @@ if (mix === true) {
 }
 */
 
+
+
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// Fix by replacing the pipes (vertical bars) which are looking for either/or
+// with && to require both conditions to be true before logging in the console.
 /*
 let temp = 40;
 const time = 4;
@@ -152,9 +167,13 @@ if (temp > 39 || time >= 4) {
 }
 */
 
+
+
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+// Fix if statement to: if(age >= minAge) and delete first console.log(no entry)
 
 /*
 let age = 21;
